@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/calculate_tip"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/etBill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etBill"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="2dp"
+        android:hint="@string/bill_amount"
+        android:background="#ffe9f4"
+        android:autofillHints=""
+        android:paddingStart="8dp"
+        android:drawableStart="@drawable/money"
+        android:drawablePadding="8dp"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintWidth_percent="0.9"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tipInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:background="#ffe9f4"
+        app:boxBackgroundMode="outline"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/etBill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTip"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawableStart="@drawable/persen"
+            android:drawablePadding="8dp"
+            android:paddingStart="8dp"
+            android:drawableEnd="@drawable/baseline_arrow_drop_down_24"
+            android:hint="@string/tip_percentage"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchRound"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/round_up_tip"
+        app:layout_constraintTop_toBottomOf="@id/tipInputLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        />
+
+    <TextView
+        android:id="@+id/tvTotalTip"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchRound"
+        app:layout_constraintWidth_percent="0.9"
+        android:text="Tip Amount: $0.00"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

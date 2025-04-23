@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TipXML</string>
+    <string name="bill_amount">Bill amount</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="calculate_tip">Calculate tip</string>
+    <string name="tip_amount">Tip Amount: %1$s</string>
+    <string name="tip_percentage">Select tip percentage</string>
+
+    <string-array name="tip_values">
+        <item>15%</item>
+        <item>18%</item>
+        <item>20%</item>
+    </string-array>
+</resources>
