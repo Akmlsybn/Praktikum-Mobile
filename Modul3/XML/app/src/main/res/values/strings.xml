@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Movie List XML</string>
+    
+    <string name="movie_poster_desc">Movie Poster</string>
+    <string name="btn_detail">Detail</string>
+    <string name="btn_imdb">IMDB</string>
+    
+    <string-array name="data_title">
+    <item>Iron man 3</item>
+    <item>Captain America: Civil War</item>
+    <item>Avengers: Infinity War</item>
+    <item>Avengers: Endgame</item>
+    <item>Spider-man: No Way Home</item>
+    </string-array>
+
+    <string-array name="data_link">
+        <item>https://www.imdb.com/title/tt1300854/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_iron%2520man%25203</item>
+        <item>https://www.imdb.com/title/tt3498820/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_captain%2520america%2520civi</item>
+        <item>https://www.imdb.com/title/tt4154756/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Infinity%2520war</item>
+        <item>https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_endgame</item>
+        <item>https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_no%2520way%2520h</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Brilliant industrialist Tony Stark / Iron Man faces an enemy that knows no bounds. Tony world is destroyed and he investigates who is responsible for the destruction. Armed with his tools and instincts, Tony sets out to save those he loves. An old question comes back to haunt him; did humans make the Iron Man suit or did the suit define his identity as a human?</item>
+        <item>The heavy civilian casualties have led the government to control the superheroes. This heated situation has Iron Man and Captain America camps opposing each other. The battle is inevitable.</item>
+        <item>The remaining Avengers try to reverse Thanos actions that destroyed half the universe. They travel through time to collect the Infinity Stones, then use the energy of the stones to go back in time and change the events that caused the Snap.</item>
+        <item>The Avengers and their allies must be willing to sacrifice everything in an attempt to defeat the powerful Thanos before he succeeds in destroying the universe.</item>
+        <item>For the first time in Spider-Man big-screen history, the affable hero true identity is revealed, causing his superpower responsibilities to clash with his normal life, and putting everyone closest to him at risk.</item>
+    </string-array>
+
+    <string-array name="data_years">
+        <item>2013</item>
+        <item>2016</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2021</item>
+    </string-array>
+
+    <string-array name="data_image">
+        <item>@drawable/ironman3</item>
+        <item>@drawable/civilwar</item>
+        <item>@drawable/infinitwar</item>
+        <item>@drawable/endgame</item>
+        <item>@drawable/nwh</item>
+    </string-array>
+
+    <string-array name="plot">
+        <item>Plot :</item>
+        <item>Plot :</item>
+        <item>Plot :</item>
+        <item>Plot :</item>
+        <item>Plot :</item>
+    </string-array>
+</resources>

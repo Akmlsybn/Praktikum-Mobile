@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Movie List</string>
+
+    <string name="title1">Iron Man 3</string>
+    <string name="title2">Captain America: Civil War</string>
+    <string name="title3">Avengers: Endgame</string>
+    <string name="title4">Avengers: Infinity War</string>
+    <string name="title5">Spider-man: No Way Home</string>
+
+    <string name="url1">https://www.imdb.com/title/tt1300854/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Iron%2520Man%25203</string>
+    <string name="url2">https://www.imdb.com/title/tt3498820/?ref_=nv_sr_srsg_0_tt_6_nm_0_in_0_q_captain%2520civil%2520war</string>
+    <string name="url3">https://www.imdb.com/title/tt4154756/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_infinity%2520war</string>
+    <string name="url4">https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_endgame</string>
+    <string name="url5">https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_no%2520way</string>
+
+    <string name="releaseDate1">2013</string>
+    <string name="releaseDate2">2016</string>
+    <string name="releaseDate3">2019</string>
+    <string name="releaseDate4">2018</string>
+    <string name="releaseDate5">2021</string>
+    
+    <string name="desc1">Brilliant industrialist Tony Stark / Iron Man faces an enemy that knows no bounds. Tony world is destroyed and he investigates who is responsible for the destruction. Armed with his tools and instincts, Tony sets out to save those he loves. An old question comes back to haunt him; did humans make the Iron Man suit or did the suit define his identity as a human?</string>
+    <string name="desc2">The heavy civilian casualties have led the government to control the superheroes. This heated situation has Iron Man and Captain America camps opposing each other. The battle is inevitable.</string>
+    <string name="desc3">The remaining Avengers try to reverse Thanos actions that destroyed half the universe. They travel through time to collect the Infinity Stones, then use the energy of the stones to go back in time and change the events that caused the Snap.</string>
+    <string name="desc4">The Avengers and their allies must be willing to sacrifice everything in an attempt to defeat the powerful Thanos before he succeeds in destroying the universe.</string>
+    <string name="desc5">For the first time in Spider-Man big-screen history, the affable hero true identity is revealed, causing his superpower responsibilities to clash with his normal life, and putting everyone closest to him at risk.</string>
+
+    <string name="description1">Brilliant industrialist Tony Stark / Iron Man faces an enemy that knows no bounds. Tony world is destroyed and he investigates who is responsible for the destruction. Armed with his tools and instincts, Tony sets out to save those he loves. An old question comes back to haunt him; did humans make the Iron Man suit or did the suit define his identity as a human?</string>
+    <string name="description2">The heavy civilian casualties have led the government to control the superheroes. This heated situation has Iron Man and Captain America camps opposing each other. The battle is inevitable.</string>
+    <string name="description3">The remaining Avengers try to reverse Thanos actions that destroyed half the universe. They travel through time to collect the Infinity Stones, then use the energy of the stones to go back in time and change the events that caused the Snap.</string>
+    <string name="description4">The Avengers and their allies must be willing to sacrifice everything in an attempt to defeat the powerful Thanos before he succeeds in destroying the universe.</string>
+    <string name="description5">For the first time in Spider-Man big-screen history, the affable hero true identity is revealed, causing his superpower responsibilities to clash with his normal life, and putting everyone closest to him at risk.</string>
+</resources>
