@@ -41,4 +41,3 @@ class MovieViewModel(someParam: String) : ViewModel() {
         _navigateToDetail.value = null
     }
 }
-

@@ -1,7 +1,6 @@
 package com.example.movielistxml
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 
 class MovieViewModelFactory(private val username: String) : androidx.lifecycle.ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
