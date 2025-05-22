@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetailFragment"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/img_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="Poster"
+        tools:src="@drawable/nwh"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        tools:text="Ini Judul"
+        app:layout_constraintTop_toBottomOf="@id/img_poster"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        tools:text="2020"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/tv_item_title"
+        app:layout_constraintTop_toBottomOf="@id/img_poster" />
+
+    <TextView
+        android:id="@+id/tv_item_plot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Plot :"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_item_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="deskripsi"
+        app:layout_constraintTop_toBottomOf="@id/tv_item_plot"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
