@@ -1,4 +1,4 @@
-package com.example.mlistcompose
+package com.example.mlistcompose.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.example.mlistcompose.data.DataMovie

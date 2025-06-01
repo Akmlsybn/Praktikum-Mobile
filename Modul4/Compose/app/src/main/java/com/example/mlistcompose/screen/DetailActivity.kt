@@ -1,4 +1,4 @@
-package com.example.mlistcompose
+package com.example.mlistcompose.screen
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
